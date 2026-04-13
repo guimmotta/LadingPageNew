@@ -28,7 +28,7 @@ export default function Carousel({ carouselId = 'testimonials' }) {
         {visible.map((item, i) => (
           <div
             key={`${activeIndex}-${i}`}
-            className={`bg-dark border rounded-2xl p-6 space-y-4 transition-all duration-500 ${
+            className={`bg-light border rounded-2xl p-6 space-y-4 transition-all duration-500 ${
               i === 1
                 ? 'border-gold/40 shadow-xl shadow-gold/10 scale-105'
                 : 'border-gold/10 opacity-60 scale-95 hidden md:block'
@@ -88,3 +88,4 @@ export default function Carousel({ carouselId = 'testimonials' }) {
     </div>
   )
 }
+

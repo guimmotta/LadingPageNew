@@ -4,7 +4,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <nav className="fixed top-0 w-full bg-dark/80 backdrop-blur-md border-b border-gold/10 z-50">
+    <nav className="fixed top-0 w-full bg-light/80 backdrop-blur-md border-b border-gold/10 z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="font-display text-xl text-gold font-bold">BIO Vitrine</div>
         

@@ -44,7 +44,7 @@ export default function FAQ() {
   const openId = useSelector((s) => s.ui.accordion.openId)
 
   return (
-    <section id="faq" className="bg-dark-mid py-24 relative overflow-hidden">
+    <section id="faq" className="bg-light-mid py-24 relative overflow-hidden">
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold/30 to-transparent" />
 
       <div className="max-w-3xl mx-auto px-6">
@@ -62,7 +62,7 @@ export default function FAQ() {
               <div
                 key={faq.id}
                 className={`border rounded-2xl overflow-hidden transition-all duration-300 ${
-                  isOpen ? 'border-gold/40 bg-dark shadow-lg shadow-gold/5' : 'border-gold/10 bg-dark/50'
+                  isOpen ? 'border-gold/40 bg-light shadow-lg shadow-gold/5' : 'border-gold/10 bg-light/50'
                 }`}
               >
                 <button
@@ -105,3 +105,4 @@ export default function FAQ() {
     </section>
   )
 }
+

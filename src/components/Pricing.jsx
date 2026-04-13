@@ -1,6 +1,6 @@
 export default function Pricing() {
   return (
-    <section id="pricing" className="bg-dark py-24">
+    <section id="pricing" className="bg-light py-24">
       <div className="max-w-2xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="font-display text-5xl text-cream mb-4">
@@ -9,7 +9,7 @@ export default function Pricing() {
           <p className="font-body text-cream/60">Transforme seu link da bio agora mesmo</p>
         </div>
 
-        <div className="bg-dark-mid border-2 border-gold rounded-2xl p-8 md:p-12 text-center space-y-6">
+        <div className="bg-light-mid border-2 border-gold rounded-2xl p-8 md:p-12 text-center space-y-6">
           <div>
             <div className="text-sm text-cream/60 line-through mb-2">De R$ 197</div>
             <div className="font-display text-6xl text-gold">R$ 47</div>

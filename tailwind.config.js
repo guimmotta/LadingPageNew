@@ -7,10 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        dark: '#0a0a0a',
-        'dark-mid': '#1a1a1a',
-        cream: '#f5f1e8',
-        gold: '#d4af37',
+        dark: '#0f172a',
+        light: '#f8fafc',
+        'light-mid': '#eef2ff',
+        'light-light': '#ffffff',
+        cream: '#0f172a',
+        gold: '#b45309',
+        'gold-dark': '#92400e',
       },
       fontFamily: {
         display: ['Playfair Display', 'serif'],

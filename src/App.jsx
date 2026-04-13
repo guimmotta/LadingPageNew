@@ -10,7 +10,7 @@ import StickyBar from './components/StickyBar'
 
 export default function App() {
   return (
-    <div className="bg-dark min-h-screen">
+    <div className="bg-light min-h-screen">
       <Navbar />
       <Hero />
       <Features />
@@ -24,3 +24,4 @@ export default function App() {
     </div>
   )
 }
+

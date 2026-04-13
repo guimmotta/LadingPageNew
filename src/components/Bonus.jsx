@@ -1,8 +1,8 @@
 export default function Bonus() {
   return (
-    <section id="bonus" className="bg-dark-mid py-24">
+    <section id="bonus" className="bg-light-mid py-24">
       <div className="max-w-3xl mx-auto px-6">
-        <div className="border-2 border-gold rounded-2xl p-8 bg-dark/50 text-center">
+        <div className="border-2 border-gold rounded-2xl p-8 bg-light/50 text-center">
           <div className="inline-block bg-gold/20 text-gold px-4 py-2 rounded-full mb-4 text-sm font-bold">🎁 BÔNUS EXCLUSIVO</div>
           <h2 className="font-display text-4xl text-cream mb-4">
             Ganhe <span className="text-gold">5 Templates Premium</span>

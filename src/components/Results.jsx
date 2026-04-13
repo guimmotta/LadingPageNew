@@ -7,7 +7,7 @@ export default function Results() {
   ]
 
   return (
-    <section id="results" className="bg-dark py-24">
+    <section id="results" className="bg-light py-24">
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
           {results.map((item) => (

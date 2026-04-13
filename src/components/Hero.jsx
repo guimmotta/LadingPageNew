@@ -16,7 +16,7 @@ export default function Hero() {
   }, [dispatch])
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden bg-dark">
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-light">
       {/* Decorative background */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-1/4 -left-40 w-96 h-96 bg-gold/10 rounded-full blur-3xl" />
@@ -108,9 +108,9 @@ export default function Hero() {
         <div className="relative flex justify-center lg:justify-end">
           <div className="animate-float relative">
             {/* Phone frame */}
-            <div className="w-64 bg-dark-light rounded-[2.5rem] border-2 border-gold/30 shadow-2xl shadow-black/50 overflow-hidden">
-              <div className="h-6 bg-dark-mid flex items-center justify-center">
-                <div className="w-20 h-1.5 bg-dark-light rounded-full" />
+            <div className="w-64 bg-light-light rounded-[2.5rem] border-2 border-gold/30 shadow-2xl shadow-black/50 overflow-hidden">
+              <div className="h-6 bg-light-mid flex items-center justify-center">
+                <div className="w-20 h-1.5 bg-light-light rounded-full" />
               </div>
               <div className="bg-gradient-to-b from-dark-mid to-dark p-4 space-y-3 min-h-96">
                 {/* Profile */}
@@ -125,7 +125,7 @@ export default function Hero() {
                 {['✨ Meu Curso', '📱 Instagram', '💌 Contato', '🛒 Loja'].map((btn) => (
                   <div
                     key={btn}
-                    className="w-full bg-dark-light border border-gold/20 rounded-xl py-2.5 text-center font-body text-cream/80 text-xs hover:border-gold/50 transition-colors cursor-pointer"
+                    className="w-full bg-light-light border border-gold/20 rounded-xl py-2.5 text-center font-body text-cream/80 text-xs hover:border-gold/50 transition-colors cursor-pointer"
                   >
                     {btn}
                   </div>
@@ -140,3 +140,4 @@ export default function Hero() {
     </section>
   )
 }
+

@@ -23,7 +23,7 @@ export default function Features() {
   ]
 
   return (
-    <section id="features" className="bg-dark-mid py-24">
+    <section id="features" className="bg-light-mid py-24">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="font-display text-5xl text-cream mb-4">
@@ -34,7 +34,7 @@ export default function Features() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature) => (
-            <div key={feature.title} className="bg-dark rounded-2xl p-6 border border-gold/10 hover:border-gold/30 transition">
+            <div key={feature.title} className="bg-light rounded-2xl p-6 border border-gold/10 hover:border-gold/30 transition">
               <div className="text-4xl mb-4">{feature.icon}</div>
               <h3 className="font-display text-xl text-cream mb-2">{feature.title}</h3>
               <p className="font-body text-cream/60 text-sm">{feature.description}</p>
