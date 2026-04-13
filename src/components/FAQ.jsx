@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux'
-import { toggleAccordion } from '../store/uiSlice'
+import { toggleAccordion } from '../uiSlice'
 
 const faqs = [
   {

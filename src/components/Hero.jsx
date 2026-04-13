@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { useDispatch } from 'react-redux'
-import { setCTAVisible } from '../store/uiSlice'
+import { setCTAVisible } from '../uiSlice'
 
 export default function Hero() {
   const dispatch = useDispatch()

@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux'
-import { nextSlide, prevSlide, setSlide } from '../store/uiSlice'
+import { nextSlide, prevSlide, setSlide } from '../uiSlice'
 
 const testimonials = [
   { name: 'Ana Lima', role: 'Coach de vida', text: 'Minha BIO virou um mini site lindo em menos de 10 minutos! Os clientes ficam impressionados com o profissionalismo.', initial: 'A' },
